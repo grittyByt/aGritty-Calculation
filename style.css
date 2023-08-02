@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: auto;
+    padding: 5rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masonJar {
+    height: 80rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: relative;
+    top: 1rem;
+    font-family: 'Tektur', cursive;
+}
+
+.calculator {
+    position: relative;
+    top: 4rem;
+    height: 35rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A5276;
+    box-shadow: 0 15px 20px 5px rgba(86, 101, 115, 0.3);
+    border: 0.5em solid rgb(21, 67, 96);
+    border-radius: 2rem;
+}
+
+.display input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    height: 3rem;
+    width: 18rem;
+    text-align: end;
+    border-radius: 0.5rem;
+    background-color: #34495E  ;
+    font-family: 'Handjet', cursive;
+    font-size: 35px;
+    border: 1mm inset #37474f;
+    color: #2ECC71;
+}
+
+.operators input {
+    margin: 0.25rem;
+    height: 4rem;
+    width: 4rem;
+    border: 0.1em outset rgb(126, 87, 194);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 25px;
+    color: #FF5722;
+    /* color: rgb(139, 195, 74); */
+    background-color: #673AB7;
+}
+
+.numOps input {
+    margin: 0.25rem;
+    height: 4rem;
+    width: 4rem;
+    font-size: 25px;
+    color: #ffffff;
+    border: 0.1em outset rgb(127, 179, 213);
+    background-color: #2471A3  ;
+    border-radius: 0.5rem;
+}
+
+.numOps input:last-child {
+    color: #FF5722;
+    background-color: #673AB7;
+    border: 0.1em outset rgb(126, 87, 194);
+}
+
+.numOps input.equalBtn {
+    width: 9rem;
+}

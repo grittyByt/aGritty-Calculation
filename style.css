@@ -76,6 +76,7 @@ h1 {
     width: 4rem;
     font-size: 25px;
     color: #ffffff;
+    cursor: pointer;
     border: 0.1em outset rgb(127, 179, 213);
     background-color: #2471A3  ;
     border-radius: 0.5rem;
